@@ -31,7 +31,7 @@ public class LoginServiceImpl implements LoginService {
     public ResponseResult login(User user) {
         // 封装Authentication对象 存入用户名和密码
         UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(user.getUserName(), user.getPassword());
-        // 调用authenticate进行验证
+        // 调用authenticate进行验证 这一步会去UserDetailsServiceImpl
         Authentication authenticate = authenticationManager.authenticate(authenticationToken);
         if (Objects.isNull(authenticate)) {
             throw new RuntimeException("用户名或者密码错误。。");
