@@ -20,7 +20,7 @@ import java.rmi.RemoteException;
 import java.util.Objects;
 
 /**
- * @Author：Achen
+ * @Author：Achen Jwt 身份验证令牌过滤器
  */
 @Component
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
