@@ -8,15 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springsecurity-quickstart" />
+        <module name="tokendemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="springsecurity-quickstart" target="1.8" />
+      <module name="tokendemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springsecurity-quickstart" options="-parameters" />
+      <module name="tokendemo" options="-parameters" />
     </option>
   </component>
 </project>

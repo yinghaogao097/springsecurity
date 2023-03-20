@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springsecurity-quickstart/springsecurity-quickstart.iml" filepath="$PROJECT_DIR$/springsecurity-quickstart/springsecurity-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tokendemo/tokendemo.iml" filepath="$PROJECT_DIR$/tokendemo/tokendemo.iml" />
     </modules>
   </component>
 </project>
