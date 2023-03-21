@@ -3,6 +3,8 @@ package com.sangeng.domain;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 /**
+ * 统一返回结果
+ *
  * @Author 三更  B站： https://space.bilibili.com/663528522
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)

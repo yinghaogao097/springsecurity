@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
+ * 自定义认证失败处理
  * @Author 三更  B站： https://space.bilibili.com/663528522
  */
 @Component

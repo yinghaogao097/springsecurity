@@ -15,6 +15,8 @@ import java.util.List;
 import java.util.Objects;
 
 /**
+ * 自定义用户验证
+ *
  * @Author：Achen
  */
 @Service
