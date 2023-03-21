@@ -21,4 +21,9 @@ public class HelloController {
     public ResponseResult testCors() {
         return new ResponseResult(200, "testCors");
     }
+
+    @RequestMapping("/testdd")
+    public ResponseResult testdd() {
+        return new ResponseResult(200, "testdd");
+    }
 }
