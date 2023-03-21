@@ -54,6 +54,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authenticationEntryPoint(authenticationEntryPoint).
                 // 自定义权限认证异常
                         accessDeniedHandler(accessDeniedHandler);
+        // 配置跨域
+        http.cors();
     }
 
     @Bean
